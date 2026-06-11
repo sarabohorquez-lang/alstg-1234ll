@@ -136,3 +136,18 @@ h3 {
   background-color: #4caf50; /* Cambia a un verde más claro */
   padding-left: 25px; /* Efecto dinámico: el texto se mueve a la derecha */
 }
+
+nav a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #00e5ff;
+    transform: scale(1.05);
+}
