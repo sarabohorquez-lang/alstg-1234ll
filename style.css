@@ -151,3 +151,7 @@ nav a:hover {
     color: #00e5ff;
     transform: scale(1.05);
 }
+
+nav a {
+    font-family: 'Orbitron', sans-serif;
+}
