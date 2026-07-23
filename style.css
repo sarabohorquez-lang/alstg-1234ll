@@ -186,6 +186,6 @@ input:focus, textarea:focus {
 }
 
 textarea {
-  height: 100px;
+  height: 99px;
   resize: none; /* Bloquea el tamaño para que no deforme la app */
 }
