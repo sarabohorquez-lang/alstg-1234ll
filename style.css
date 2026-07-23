@@ -102,7 +102,7 @@ h3 {
 .btn-menu {
   background: none;
   border: none;
-  color: #1b5e20;
+  color: 7DB5B2;
   font-size: 28px;
   cursor: pointer;
 
@@ -112,7 +112,7 @@ h3 {
 #navegacion {
   display: flex;
   flex-direction: column;
-  background-color: #1b5e20; /* Un verde más oscuro para el menú */
+  background-color: E0B4DF; /* Un verde más oscuro para el menú */
   transition: all 0.3s ease; /* Hace que la aparición sea suave */
 }
 
