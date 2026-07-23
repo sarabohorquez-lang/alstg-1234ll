@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Ivan - Alien Stage</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#050505,#1a0000,#430909);
+    color:white;
+    min-height:100vh;
+}
+
+header{
+    background:rgba(0,0,0,.55);
+    padding:25px;
+    text-align:center;
+    border-bottom:2px solid #ff3131;
+    backdrop-filter:blur(10px);
+}
+
+header h1{
+    font-family:'Orbitron',sans-serif;
+    font-size:40px;
+    color:#ff5b5b;
+    text-shadow:0 0 18px #ff3131;
+}
+
+main{
+    width:85%;
+    max-width:900px;
+    margin:40px auto;
+    background:rgba(255,255,255,.07);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 0 30px rgba(255,49,49,.35);
+}
+
+img{
+    display:block;
+    margin:auto;
+    width:280px;
+    border-radius:20px;
+    border:4px solid #ff3131;
+    box-shadow:0 0 25px #ff3131;
+    transition:.4s;
+}
+
+img:hover{
+    transform:scale(1.05);
+}
+
+h2{
+    margin-top:30px;
+    margin-bottom:15px;
+    color:#ff7777;
+    font-family:'Orbitron',sans-serif;
+}
+
+p{
+    text-align:justify;
+    line-height:1.8;
+    font-size:17px;
+}
+
+ul{
+    margin-left:25px;
+    line-height:2;
+}
+
+strong{
+    color:#ff8d8d;
+}
+
+button{
+    display:block;
+    margin:35px auto 0;
+    padding:15px 30px;
+    background:#ff3131;
+    color:white;
+    border:none;
+    border-radius:30px;
+    cursor:pointer;
+    font-size:16px;
+    font-family:'Orbitron';
+    transition:.3s;
+}
+
+button:hover{
+    background:#b10000;
+    transform:scale(1.08);
+    box-shadow:0 0 20px #ff3131;
+}
+
+footer{
+    margin-top:40px;
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,.5);
+    border-top:2px solid #ff3131;
+}
+
+@media(max-width:768px){
+
+header h1{
+    font-size:28px;
+}
+
+main{
+    width:95%;
+    padding:20px;
+}
+
+img{
+    width:220px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>❤️ Ivan - Alien Stage 🎤</h1>
+</header>
+
+<main>
+
+<img src="imagenes/i.png" alt="Ivan de Alien Stage">
+
+<h2>¿Quién es Ivan?</h2>
+
+<p>
+Ivan es uno de los personajes principales de <strong>Alien Stage</strong>, creado por VIVINOS. Es reconocido por su personalidad tranquila, inteligente y reservada. A pesar de su apariencia seria, demuestra una gran lealtad y una profunda sensibilidad hacia las personas que aprecia, especialmente durante las competencias musicales.
+</p>
+
+<h2>📋 Información básica</h2>
+
+<ul>
+<li><strong>Nombre:</strong> Ivan</li>
+<li><strong>Serie:</strong> Alien Stage</li>
+<li><strong>Creador:</strong> VIVINOS</li>
+<li><strong>Personalidad:</strong> Serio, calmado, observador y protector.</li>
+<li><strong>Habilidad:</strong> Canto.</li>
+<li><strong>Color representativo:</strong> Rojo.</li>
+</ul>
+
+<h2>✨ Curiosidades</h2>
+
+<p>
+Ivan es considerado uno de los personajes más complejos de Alien Stage. Su forma de expresar sus emociones, su gran talento artístico y las decisiones que toma durante la historia han hecho que muchos fanáticos lo consideren uno de los personajes más memorables de la serie.
+</p>
+
+<button onclick="mensajeIvan()">❤️ ¡Siempre con Ivan!</button>
+
+</main>
+</body>
+</html>
