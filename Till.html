@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Till - Alien Stage</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:linear-gradient(135deg,#05080f,#152847,#2a3f75);
+    color:white;
+    min-height:100vh;
+}
+
+header{
+    background:rgba(0,0,0,.45);
+    backdrop-filter:blur(10px);
+    padding:25px;
+    text-align:center;
+    border-bottom:2px solid #58b7ff;
+}
+
+header h1{
+    font-family:'Orbitron',sans-serif;
+    font-size:40px;
+    color:#8fd8ff;
+    text-shadow:0 0 18px #58b7ff;
+}
+
+main{
+    width:85%;
+    max-width:900px;
+    margin:40px auto;
+    background:rgba(255,255,255,.08);
+    backdrop-filter:blur(12px);
+    border-radius:20px;
+    padding:35px;
+    box-shadow:0 0 25px rgba(88,183,255,.35);
+}
+
+img{
+    display:block;
+    margin:auto;
+    width:280px;
+    border-radius:20px;
+    border:4px solid #58b7ff;
+    box-shadow:0 0 25px #58b7ff;
+}
+
+h2{
+    margin-top:30px;
+    margin-bottom:15px;
+    color:#9ee6ff;
+    font-family:'Orbitron',sans-serif;
+}
+
+p{
+    text-align:justify;
+    line-height:1.8;
+    font-size:17px;
+}
+
+ul{
+    margin-left:25px;
+    line-height:2;
+}
+
+strong{
+    color:#8fd8ff;
+}
+
+button{
+    display:block;
+    margin:35px auto 0;
+    background:#58b7ff;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:30px;
+    font-size:16px;
+    cursor:pointer;
+    font-family:'Orbitron';
+    transition:.3s;
+}
+
+button:hover{
+    background:#3468ff;
+    transform:scale(1.08);
+    box-shadow:0 0 20px #58b7ff;
+}
+
+footer{
+    margin-top:40px;
+    padding:20px;
+    text-align:center;
+    background:rgba(0,0,0,.4);
+    border-top:2px solid #58b7ff;
+}
+
+@media(max-width:768px){
+
+header h1{
+    font-size:28px;
+}
+
+main{
+    width:95%;
+    padding:20px;
+}
+
+img{
+    width:220px;
+}
+
+}
+
+</style>
+
+</head>
+
+<body>
+
+<header>
+<h1>🎤 Till - Alien Stage 🎵</h1>
+</header>
+
+<main>
+
+<img src="imagenes/t.png" alt="Till de Alien Stage">
+
+<h2>¿Quién es Till?</h2>
+
+<p>
+Till es uno de los personajes principales de <strong>Alien Stage</strong>, la serie animada creada por VIVINOS. Destaca por su personalidad fuerte, reservada y apasionada por la música. A lo largo de la historia demuestra un gran talento como cantante y una determinación inquebrantable para proteger aquello que considera importante.
+</p>
+
+<h2>📋 Información básica</h2>
+
+<ul>
+<li><strong>Nombre:</strong> Till</li>
+<li><strong>Serie:</strong> Alien Stage</li>
+<li><strong>Creador:</strong> VIVINOS</li>
+<li><strong>Personalidad:</strong> Valiente, serio y decidido.</li>
+<li><strong>Habilidad:</strong> Canto.</li>
+<li><strong>Color representativo:</strong> Azul.</li>
+</ul>
+
+<h2>✨ Curiosidades</h2>
+
+<p>
+Till es admirado por muchos seguidores gracias a su carácter firme y a la intensidad de sus interpretaciones musicales. Su desarrollo dentro de Alien Stage muestra cómo enfrenta situaciones difíciles sin perder su determinación, convirtiéndose en uno de los personajes más memorables de la serie.
+</p>
+
+<button onclick="mensajeTill()">💙 ¡Apoyemos a Till!</button>
+
+</main>
+  
+<script>
+function mensajeTill(){
+    alert("🎵 Till nunca deja de luchar por sus sueños. 💙");
+}
+</script>
+
+</body>
+</html>
